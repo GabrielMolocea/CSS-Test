@@ -329,9 +329,11 @@
   padding-top: 64px;
   width: 333px;
 }
-
-.content .title {
+.content .up .left .title {
   color: white;
+}
+.content .title {
+  color: #004386;
   float: left;
   font-size: 24px;
   font-weight: 700;
@@ -523,7 +525,7 @@
   background-position: 0 -28px;
 }
 .course-bar .call-now {
-  background: url(../images/headers/call-now.png) no-repeat scroll 0 0
+  background: url(../images/headers/call-now.jpg) no-repeat scroll 0 0
     transparent;
   float: right;
   height: 0;
@@ -890,6 +892,7 @@
   font-size: 12px;
 }
 .footer .bottom .developers {
+  margin-left: 8.5rem;
   display: inline;
 }
 .footer .bottom .ticket-to-ride-container {
@@ -1227,10 +1230,16 @@
   padding-top: 10px;
   position: relative;
 }
-.lets-talk-ltbx .button .send-us-a-message-btn {
-  float: left;
-  left: -50%;
-  position: relative;
+.send-message .send-us-a-message-btn {
+  background: url(../images/buttons/send-us-a-message.jpg) no-repeat scroll 0 0
+    transparent;
+    float: left;
+    left: 4%;
+    overflow: hidden;
+    padding-top: 15px;
+    position: relative;
+    width: 200px;
+    text-indent: -9999px;
 }
 .lets-talk-ltbx .button .visit-facebook-btn {
   background: url(../images/buttons/visit-facebook.png) no-repeat scroll 0 0
